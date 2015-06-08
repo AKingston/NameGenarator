@@ -1,17 +1,17 @@
 package com.nameGenarator;
 
-import javax.swing.*;
+
 import java.util.ArrayList;
-import java.util.Random;
+
 
 /**
  * Created by Adam on 08/06/2015.
  */
 public class NameGen {
 
-    ArrayList<String> names = new ArrayList<String>();
+    ArrayList<String> names = new ArrayList<>();
 
-    public NameGen(){
+    public void NameGon(){
         names.add("Adam");
         names.add("Thomas");
         names.add("Alex");
@@ -22,12 +22,6 @@ public class NameGen {
 
     public void selectName(){
 
-        for(int i=0; i<names.length; i++){
-
-            System.out.println(Math.random(i);
-        }
-
+        System.out.println(names.get((int) (Math.random()*4)));
     }
-
-
 }
