@@ -24,7 +24,7 @@ public class NameGen {
 
         for(int i=0; i<names.length; i++){
 
-            System.out.println(Random.Math[i]);
+            System.out.println(Math.random(i);
         }
 
     }
